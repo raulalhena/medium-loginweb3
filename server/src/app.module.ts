@@ -8,7 +8,7 @@ import { MongooseModule } from '@nestjs/mongoose';
   imports: [
     UsersModule,
     MongooseModule.forRoot(
-      'mongodb+srv://loginweb3:loginweb31234@loginweb3.4bh7dfj.mongodb.net/loginweb3',
+      'mongodb+srv://<user>:<password>@<atlas_cluster_identifier>/<database_name>',
     ),
   ],
   controllers: [AppController],
